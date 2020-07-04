@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Make github readme</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<p align="center" id="top">- m a k e &nbsp; g i t h u b &nbsp; r e a d m e -</p>
+	<div id="toolbar">
+		<a id="div" class="tool" href="javascript:void(0);" onclick="modtext('div');">N</a>
+		<a id="b" class="tool" href="javascript:void(0);" onclick="modtext('b');"><b>B</b></a>
+		<a id="i" class="tool" href="javascript:void(0);" onclick="modtext('i');"><i>I</i></a>
+		<a id="bi" class="tool" href="javascript:void(0);" onclick="strong();"><b><i>BI</i></b></a>
+		<a id="s" class="tool" href="javascript:void(0);" onclick="modtext('s');"><s>M</s></a>
+		<a id="h1" class="tool" href="javascript:void(0);" onclick="modtext('h1');">H1</a>
+		<a id="h2" class="tool" href="javascript:void(0);" onclick="modtext('h2');">H2</a>
+		<a id="h3" class="tool" href="javascript:void(0);" onclick="modtext('h3');">H3</a>
+		<a id="h4" class="tool" href="javascript:void(0);" onclick="modtext('h4');">H4</a>
+		<a id="h5" class="tool" href="javascript:void(0);" onclick="modtext('h5');">H5</a>
+		<a id="h6" class="tool" href="javascript:void(0);" onclick="modtext('h6');">H6</a>
+		<a id="icode" class="tool" href="javascript:void(0);" onclick="icode();">Insert_code</a>
+		<a class="tool" href="#source" onclick="down();">Get_source</a>
+		<a class="tool" href="#top">Go_to_top</a>
+	</div>
+	<br>
+	<br>
+	<div id="grid">
+		<div contenteditable="true" class="tarea" id="rtext"></div>
+	</div>
+	<p align="center">- s o u r c e &nbsp; c o d e -</p>
+	<div id="sarea">
+		<textarea id="source" readonly>
+		</textarea>
+	</div>
+	<br><br><br>
+	<script src="js/func.js"></script>
+	<center><a id="port" target="_blank" href="https://ryancp.netlify.app">Copyright© RCovery</a></center>
+</body>
+</html>

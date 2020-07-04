@@ -1,0 +1,86 @@
+html{
+	scroll-behavior: smooth;
+}
+p{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 40px;
+}
+body{
+	background: url("images/bg.png");
+}
+code{
+	background-color: #F6F8FA;
+	width: 100%;
+	padding: 4px 12px 4px 12px;
+	border-radius: 2px;
+}
+
+.tarea{
+	line-height: 20px;
+}
+.tool{
+	color: black;
+	text-decoration: none;
+	background-color: rgba(230,230,230,0.5);
+	padding: 0px 10px 0px 10px;
+	border-radius: 5px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 15px;
+	transition: 0.5s;
+}
+.tool:hover{
+	background-color: pink;
+}
+.tool:active{
+	background-color: pink;
+	color: blue;
+}
+
+#port{
+	text-decoration: none;
+	color: black;
+}
+#grid{
+	margin-left: 15%; margin-right: 15%;
+}
+#toolbar{
+	box-shadow: 5px 5px 15px black;
+	z-index: 1;
+	position: sticky;
+	top: 15px;
+	background: linear-gradient(to right, rgba(255,113,206,0.5),rgba(1,205,254,0.5));
+	border-radius: 5px;
+	border: solid black 1px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#rtext{
+	padding: 15px;
+	min-height: 600px;
+	word-break: break-all;
+	background: white;
+	width: 100%;
+	transform: translateX(-15px);
+	border: solid black 1px;
+	border-radius: 7px;
+}
+[contenteditable]:focus{
+	outline: none;
+}
+#source{
+	height: auto;
+	min-height: 600px;
+	width: 100%;
+	padding: 15px;
+	border: solid black 1px;
+	border-radius: 7px;
+	resize: none;
+	word-break: break-all;
+}
+#source:focus{
+	outline: none;
+}
+#sarea{
+	transform: translateX(-15px);
+	margin-left: 15%; margin-right: 15%;
+}
