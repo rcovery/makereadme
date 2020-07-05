@@ -1,3 +1,5 @@
+https://makereadme.netlify.app
+
 <h1>~ make github readme ~</h1>This editor is a simple way to create a README.md file! <s>But there are still some bugs and it's in development</s>.
 
 Ruby:
