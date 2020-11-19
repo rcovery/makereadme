@@ -1,39 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
 html{
 	scroll-behavior: smooth;
+    font-family: 'Roboto', cursive;
 }
+
+
 p{
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Roboto', cursive;
 	font-size: 40px;
+    font-weight: 700px;
+    box-shadow: 5px 5px 0px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-block-start: 1em;
+    width: 500px;
 }
+
+img{
+    size: 28px;
+}
+
 body{
-	background: url("images/bg.png");
+    background: url(/images/onda.svg) no-repeat, url(/images/olha_a_onda.svg) no-repeat, linear-gradient(to bottom,#464646, #000, #5b5f62);
+    background-size: cover;
 }
+
 code{
-	background-color: #F6F8FA;
+	background-color: rgb(24, 25, 26);
 	width: 100%;
 	padding: 4px 12px 4px 12px;
-	border-radius: 2px;
+	border-radius: 3px;
 }
 
 .tarea{
 	line-height: 20px;
 }
 .tool{
-	color: black;
-	text-decoration: none;
-	background-color: rgba(230,230,230,0.5);
-	padding: 0px 10px 0px 10px;
-	border-radius: 5px;
-	font-family: 'Josefin Slab', serif;
-	font-size: 15px;
-	transition: 0.5s;
+    color: black;
+    text-decoration: none;
+    background: linear-gradient(to right, #8c5ccb, #4099ff);
+    padding: 3px 5px 3px 3px;
+    margin: 1.5px;
+    border-radius: 3px;
+    font-family: 'Roboto', cursive;
+    font-weight: 700;
+    font-size: 19px;
+    transition: 0.5s;
 }
 .tool:hover{
 	background-color: pink;
 }
 .tool:active{
 	background-color: pink;
-	color: blue;
+	color: rgb(93, 93, 136)86, 86, 146);
 }
 
 #port{
@@ -44,21 +66,23 @@ code{
 	margin-left: 15%; margin-right: 15%;
 }
 #toolbar{
-	box-shadow: 5px 5px 15px black;
-	z-index: 1;
-	position: sticky;
-	top: 15px;
-	background: linear-gradient(to right, rgba(255,113,206,0.5),rgba(1,205,254,0.5));
-	border-radius: 5px;
-	border: solid black 1px;
-	margin-left: 20%;
-	margin-right: 20%;
+    z-index: 1;
+    position: sticky;
+    top: 15px;
+    background: linear-gradient(to top, #141415,#242f38);
+    border-radius: 5px;
+    border: solid rgba(5,5,5,.5) 3px;
+    margin-left: 34%;
+    margin-right: 0%;
+    display: inline-flex;
+    text-align: center;
 }
+
 #rtext{
 	padding: 15px;
 	min-height: 600px;
 	word-break: break-all;
-	background: white;
+	background: #e6e3e1;
 	width: 100%;
 	transform: translateX(-15px);
 	border: solid black 1px;
@@ -66,6 +90,11 @@ code{
 }
 [contenteditable]:focus{
 	outline: none;
+}
+#rtext:hover{
+    box-shadow: 3px 3px 0px black;
+    border-radius: 10px;
+    background-color: #fff;
 }
 #source{
 	height: auto;
