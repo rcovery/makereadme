@@ -72,8 +72,7 @@ code{
     background: linear-gradient(to top, #141415,#242f38);
     border-radius: 5px;
     border: solid rgba(5,5,5,.5) 3px;
-    margin-left: 34%;
-    margin-right: 0%;
+    margin-left:29%;
     display: inline-flex;
     text-align: center;
 }
@@ -87,14 +86,16 @@ code{
 	transform: translateX(-15px);
 	border: solid black 1px;
 	border-radius: 7px;
+    transition: 1s;
 }
 [contenteditable]:focus{
 	outline: none;
 }
 #rtext:hover{
-    box-shadow: 3px 3px 0px black;
+    box-shadow: 3px 3px 0px #000000;
     border-radius: 10px;
     background-color: #fff;
+    transition: 1s;
 }
 #source{
 	height: auto;
