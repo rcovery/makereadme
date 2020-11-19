@@ -19,7 +19,6 @@ function icode(){
 		let language = window.prompt("(This editor does not work with colored syntaxes)\nWhich programming language do you want to use?");
 		if (language != ""){
 			let selection = document.getSelection();
-			console.log(selection.toString());
 			document.execCommand('insertHTML', false, `\n<code class="${language}icode">` + selection.toString().split("<").join("&lt;") + `</code>&nbsp;`);
 		}
 	}
