@@ -29,7 +29,7 @@ body{
 }
 
 code{
-	background-color: rgb(24, 25, 26);
+	background-color: rgb(164, 166, 168);
 	width: 100%;
 	padding: 4px 12px 4px 12px;
 	border-radius: 3px;
@@ -55,7 +55,7 @@ code{
 }
 .tool:active{
 	background-color: pink;
-	color: rgb(93, 93, 136)86, 86, 146);
+	color: rgb(93, 93, 136);
 }
 
 #port{
