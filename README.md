@@ -14,7 +14,7 @@ C:
 int main()
 {
     printf("Awesome!");
-    return(0);
+    return 0;
 }
 ```
  
