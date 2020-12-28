@@ -4,7 +4,7 @@ https://makereadme.netlify.app
 
 Ruby:
 ```ruby
-puts "You can enter codes!"
+puts "You can insert codes!"
 ```
 
 C:
